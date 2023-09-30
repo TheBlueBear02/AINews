@@ -1,0 +1,58 @@
+{
+  "Reports": [
+    {
+      "Id": 4871,
+      "Text": "Earlier today, IDF surveillance identified terrorists firing towards the community of Yirav in the Menashe Brigade. During the search operations, backpacks were found in the area of the village of Gilbon.",
+      "Place": "Yirav, Menashe Brigade, Gilbon village",
+      "Attacker": "Terrorists",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "23:40:40, 2023-09-29",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4870,
+      "Text": "IDF soldiers fired towards terrorists who threw Molotov cocktails towards a military position near the settlement of Pisgat in the Binyamin Brigade. A unit that was conducting a planned operation in the area identified the suspects and opened fire towards them. Two terrorists were neutralized and they were taken for medical treatment. No damage was caused and there are no casualties among the forces.",
+      "Place": "Pisgat, Binyamin Brigade",
+      "Attacker": "Terrorists",
+      "Casualties": "2 neutralized",
+      "PubilshTime": "22:40:28, 2023-09-29",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4869,
+      "Text": "First publication in the background of the tense security situation in the south, Netanyahu will meet on Sunday morning for a situation assessment with the heads of the security establishment. A government official tells the news that the discussion will focus on a number of measures and not specifically on the events happening in the south. Good morning, Security News.",
+      "Place": "Israel",
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "18:02:26, 2023-09-29",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4868,
+      "Text": "An investigator from the Israeli Fire and Rescue Services in the Southern District determined that the fire was not caused by an incendiary balloon.",
+      "Place": "Southern District, Israel",
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "17:47:30, 2023-09-29",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4867,
+      "Text": "The Lebanese newspaper Al-Akhbar reports that increasing the number of workers from Gaza is only the initial condition for calm, and the full condition is that there will be an additional increase so that the number of workers from Gaza reaches during the next year. All this is just one condition of Hamas among other conditions.",
+      "Place": "Lebanon",
+      "Attacker": "Hamas",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "17:01:40, 2023-09-29",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4866,
+      "Text": "The radical youth within the Gaza Strip, affiliated with Hamas, who have been leading the disturbances at the border, are now publishing a provocative statement calling for confrontation with Jews in Jerusalem and the West Bank ahead of the Sukkot holiday. They promise to turn the border into a mass of flames in support of Al-Aqsa if the occupation continues to attack us and the freedom fighters of the security forces.",
+      "Place": "Gaza Strip",
+      "Attacker": "Radical youth affiliated with Hamas",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "15:42:37, 2023-09-29",
+      "Child_Reports": []
+    }
+  ]
+}

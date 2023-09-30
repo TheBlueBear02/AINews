@@ -61,7 +61,7 @@ def currentDateTime():
 # if there are adding them to the json file
 def addTheNew(translated_list, id_list):
     # Reads the reports that already saves in the database 
-    with open('Hamal Website/AllNews.json') as f: 
+    with open('AllNews.json') as f: 
         reportsDict = json.load(f)
 
     # Checks if there are new reports in the update that doesn't exists in the json 
@@ -126,7 +126,7 @@ def save_reportData(savedReports):
             break
 
     # Overide the json file with the new reports
-    with open('Hamal Website/AllNews.json', 'w') as f:
+    with open('AllNews.json', 'w') as f:
         json.dump(savedReports, f,indent=2) 
 
 # Scrap a list of all the recent reports from Hamal website

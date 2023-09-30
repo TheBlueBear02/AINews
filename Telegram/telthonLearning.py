@@ -6,6 +6,7 @@ import pytz
 import json
 import re
 import keys
+from geopy.geocoders import Nominatim
 
 api_id = keys.telegramID
 api_hash = keys.telegramHash
@@ -26,6 +27,7 @@ def get_TelegramReports(group, cl):
         entity=group,
         limit = 10,
         min_id = reportDict["Reports"][0]["Id"], #change the min_id to the last id that saved in the json file
+        #min_id = 4866,
         reverse=True
     )
     
@@ -40,6 +42,10 @@ def get_TelegramReports(group, cl):
 
     # set the time zone of the messeges to israel's time zone
     tz = pytz.timezone('Asia/Riyadh') 
+    
+
+    
+
 
     # Creating a dict for each message we want to insert to the json file 
     # Giving the chat gpt the report in Hebrew and he translate it to English and getting useful information from the report
@@ -55,6 +61,10 @@ def get_TelegramReports(group, cl):
     
         gpt_Instructions.append({"role": "user", "content": clean_message_text})
 
+        # Initialize Nominatim API
+        geolocator = Nominatim(user_agent="MyApp")
+
+
         complation = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages = gpt_Instructions,
@@ -63,18 +73,27 @@ def get_TelegramReports(group, cl):
         info = complation.choices[0].message.content
         print(info)
         infoToJson = json.loads(info)
-
+        
+        try:
+            location = geolocator.geocode(infoToJson['Place'])
+            lat = location.latitude
+            lon = location.longitude
+            coordinates = {'LAT': lat, 'LON':lon}
+        except:
+            coordinates = {}
+            print('no place')
         temp = {
                 "Id": message.id,
                 "Text": infoToJson['Text'],
                 "Place": infoToJson['Place'],
+                "Coordinates": coordinates,
                 "Attacker": infoToJson['Attacker'],
                 "Casualties": infoToJson['Casualties'],
                 "PubilshTime": reportTime,
                 "Child_Reports" : []
                 }
         reportDict['Reports'].insert(0,temp)
-
+        print(temp)
     
     
     # Overide the json file with the new reports
@@ -88,6 +107,8 @@ with TelegramClient('session_name', api_id, api_hash) as client:
     channel = client(GetFullChannelRequest(title))
 
     get_TelegramReports(channel.full_chat, client)
+
+
 
 
 print('Done')

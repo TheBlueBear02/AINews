@@ -12,4 +12,3 @@ st.write(pd.DataFrame({
     'second column': [10, 20, 30, 40]
 }))
 
-"Hello"

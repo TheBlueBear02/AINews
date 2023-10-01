@@ -26,15 +26,15 @@ def get_TelegramReports(group, cl):
     new_posts = cl.iter_messages( 
         entity=group,
         limit = 10,
-        min_id = reportDict["Reports"][0]["Id"], #change the min_id to the last id that saved in the json file
-        #min_id = 4866,
+        #min_id = reportDict["Reports"][0]["Id"], #change the min_id to the last id that saved in the json file
+        min_id = 4875,
         reverse=True
     )
     
     gpt_Instructions = [
     {"role": "system", "content":"You are an israeli news worker, you get a war report and you need to return this info (if mention):A translation of the Hebrew report exactly as given,  Where the event took place, what country or organization  did the action and how many injuries or kills there was "},
     {"role": "system", "content":"Pls responde only with the info you understood from the report there no need to be nice or write other things"},
-    {"role": "system", "content":'Pls return the info in a JSON format. Here is the expected JSON format: { "Text": The translation of the report from Hebrew to English, "Place": the place of the reprot,"Attacker": the army or terror organization that pulled the action,"Casualties": how many kills/injured people in number from the report for example 2 killed 0 Injured}'},
+    {"role": "system", "content":'Pls return the info in a JSON format. Here is the expected JSON format: {"Title": A short title for the report, "Text": The translation of the report from Hebrew to English, "Place": the place of the reprot in one word maximum 2,"Attacker": the army or terror organization that pulled the action,"Casualties": how many kills/injured people in number from the report for example 2 killed 0 Injured}'},
     {"role": "system", "content":"DO NOT RETURN ANY INFORMATION IN A DIFFERENT LANGUAGE THAN ENGLISH"},
     {"role": "system", "content":"If some of the data don't mention just write Not entioned"},
     ]
@@ -71,7 +71,6 @@ def get_TelegramReports(group, cl):
                 temperature = 0
             )   
         info = complation.choices[0].message.content
-        print(info)
         infoToJson = json.loads(info)
         
         try:
@@ -84,6 +83,7 @@ def get_TelegramReports(group, cl):
             print('no place')
         temp = {
                 "Id": message.id,
+                "Title": infoToJson['Title'],
                 "Text": infoToJson['Text'],
                 "Place": infoToJson['Place'],
                 "Coordinates": coordinates,
@@ -93,9 +93,9 @@ def get_TelegramReports(group, cl):
                 "Child_Reports" : []
                 }
         reportDict['Reports'].insert(0,temp)
-        print(temp)
     
-    
+    print(reportDict)
+
     # Overide the json file with the new reports
     with open('Telegram/AllNews.json', 'w') as f:
         json.dump(reportDict, f,indent=2) 

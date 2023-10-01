@@ -1,62 +1,115 @@
 {
   "Reports": [
     {
-      "Id": 4871,
-      "Text": "Earlier today, IDF lookout identified terrorists who fired towards the community of Yirav in the Menashe Brigade. During the searches conducted by the forces, backpacks were found in the area of the village of Gilbon.",
-      "Place": "Yirav, Menashe Brigade, Gilbon village",
-      "Coordinates": {},
-      "Attacker": "Terrorists",
-      "Casualties": "Not mentioned",
-      "PubilshTime": "23:40:40, 2023-09-29",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4870,
-      "Text": "IDF soldiers fired towards terrorists who threw Molotov cocktails towards a military position near the settlement of Psagot in the Binyamin Brigade. A unit that was conducting a planned operation in the area identified the suspects and opened fire at them. Two terrorists were neutralized and they were taken for medical treatment. No damage was caused and there are no casualties to the forces.",
-      "Place": "Near the settlement of Psagot in the Binyamin Brigade",
-      "Coordinates": {},
-      "Attacker": "Terrorists",
-      "Casualties": "2 terrorists neutralized, no casualties to the forces",
-      "PubilshTime": "22:40:28, 2023-09-29",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4869,
-      "Text": "First publication on the background of the tense security situation in the south. Netanyahu will meet on Sunday morning for a situation assessment with the heads of the security establishment. A political source tells the news that the discussion will focus on a number of measures and not specifically on the events taking place in the south.",
-      "Place": "Israel",
+      "Id": 4880,
+      "Title": "Cancellation of clashes at the Gaza border",
+      "Text": "The revolutionary youth has announced that they are canceling the clashes at the Gaza border.",
+      "Place": "Gaza",
       "Coordinates": {
-        "LAT": 39.3181528,
-        "LON": -79.8109014
+        "LAT": 31.4432234,
+        "LON": 34.360007
+      },
+      "Attacker": "Revolutionary youth",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "14:48:15, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4879,
+      "Title": "Security News Update",
+      "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip. The Minister of National Security, Ben Gvir, is not participating in the security assessment, due to pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount. This is one of the reasons why the Prime Minister's office preferred not to invite him to the important discussion.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "18:02:26, 2023-09-29",
+      "PubilshTime": "13:14:53, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4868,
-      "Text": "An investigator from the Israeli Fire and Rescue Services in the Southern District determined that the fire was not caused by an incendiary balloon.",
-      "Place": "Southern District, Israel",
+      "Id": 4878,
+      "Title": "Renewed clashes at the Gaza border",
+      "Text": "The radical youth affiliated with Hamas has announced that clashes at the Gaza border will resume today due to the desecration of Al-Aqsa.",
+      "Place": "Gaza",
       "Coordinates": {
-        "LAT": 30.682333399999997,
-        "LON": 34.88242290754138
-      },
-      "Attacker": "Not mentioned",
-      "Casualties": "Not mentioned",
-      "PubilshTime": "17:47:30, 2023-09-29",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4867,
-      "Text": "The Lebanese newspaper Al-Akhbar reports that increasing the number of workers from Israel is only the first condition for calm, and the full condition is that there will be an additional increase so that the number of workers from Gaza will reach during the next year. All this is just one condition of Hamas among other conditions. Security news.",
-      "Place": "Lebanon",
-      "Coordinates": {
-        "LAT": 40.375713,
-        "LON": -76.4626118
+        "LAT": 31.4432234,
+        "LON": 34.360007
       },
       "Attacker": "Hamas",
       "Casualties": "Not mentioned",
-      "PubilshTime": "17:01:40, 2023-09-29",
+      "PubilshTime": "13:14:17, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4877,
+      "Title": "Security discussion at the Prime Minister's Office",
+      "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the surrounding areas. Minister of National Security, Ben Gvir, is not participating in the security assessment. The pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount are among the reasons why the Prime Minister's Office preferred not to invite him to the important discussion.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "12:11:59, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4876,
+      "Title": "Security discussion at the Prime Minister's Office in Jerusalem",
+      "Text": "At this hour, a security discussion begins at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "11:07:57, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4879,
+      "Title": "Renewal of Clashes at Gaza Border",
+      "Text": "The youth affiliated with Hamas has announced that clashes at the Gaza border will resume today due to the desecration of Al-Aqsa Mosque.",
+      "Place": "Gaza",
+      "Coordinates": {
+        "LAT": 31.4432234,
+        "LON": 34.360007
+      },
+      "Attacker": "Youth affiliated with Hamas",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "13:14:53, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4877,
+      "Title": "Security discussion at the Prime Minister's Office",
+      "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the surrounding areas. Minister of National Security, Ben Gvir, is not participating in the security assessment. The pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount are among the reasons why the Prime Minister's Office preferred not to invite him to the important discussion.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "12:11:59, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4876,
+      "Title": "Security discussion at the Prime Minister's Office in Jerusalem",
+      "Text": "At this hour, a security discussion begins at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "11:07:57, 2023-10-01",
       "Child_Reports": []
     }
   ]

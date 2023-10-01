@@ -1,6 +1,48 @@
 {
   "Reports": [
     {
+      "Id": 4884,
+      "Title": "Border incident near Lebanon",
+      "Text": "There was a breach of order at the border with Lebanon. Hezbollah resumed firing at IDF forces, who responded by dispersing protests and detaining several suspects who were throwing stones towards the border fence. Earlier today, in the vicinity of Metula, a baby was lightly injured by shrapnel. Security forces are on high alert.",
+      "Place": "Lebanon",
+      "Coordinates": {
+        "LAT": 40.375713,
+        "LON": -76.4626118
+      },
+      "Attacker": "Hezbollah",
+      "Casualties": "1 injured",
+      "PubilshTime": "18:22:31, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4882,
+      "Title": "Meeting between Israeli Defense Minister and US Secretary of Defense",
+      "Text": "Israeli Defense Minister Yoav Galant will meet with US Secretary of Defense Lloyd Austin in Washington. Galant received an invitation from Austin and will travel to Washington in October for an official visit. During their meeting, they will discuss ways to strengthen the special security relations between Israel and the United States, as well as the security challenges and various policy opportunities in the Middle East.",
+      "Place": "Washington",
+      "Coordinates": {
+        "LAT": 38.8950368,
+        "LON": -77.0365427
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "18:17:18, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": 4881,
+      "Title": "Security Meeting with Prime Minister Netanyahu",
+      "Text": "Prime Minister Netanyahu held a security meeting today with the Minister of Defense and the heads of the security forces. The discussion focused on security challenges in various areas, with an emphasis on Iran.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PubilshTime": "16:29:27, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
       "Id": 4880,
       "Title": "Cancellation of clashes at the Gaza border",
       "Text": "The revolutionary youth has announced that they are canceling the clashes at the Gaza border.",
@@ -40,48 +82,6 @@
       "Attacker": "Hamas",
       "Casualties": "Not mentioned",
       "PubilshTime": "13:14:17, 2023-10-01",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4877,
-      "Title": "Security discussion at the Prime Minister's Office",
-      "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the surrounding areas. Minister of National Security, Ben Gvir, is not participating in the security assessment. The pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount are among the reasons why the Prime Minister's Office preferred not to invite him to the important discussion.",
-      "Place": "Jerusalem",
-      "Coordinates": {
-        "LAT": 31.78847185,
-        "LON": 35.21879441094499
-      },
-      "Attacker": "Not mentioned",
-      "Casualties": "Not mentioned",
-      "PubilshTime": "12:11:59, 2023-10-01",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4876,
-      "Title": "Security discussion at the Prime Minister's Office in Jerusalem",
-      "Text": "At this hour, a security discussion begins at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip.",
-      "Place": "Jerusalem",
-      "Coordinates": {
-        "LAT": 31.78847185,
-        "LON": 35.21879441094499
-      },
-      "Attacker": "Not mentioned",
-      "Casualties": "Not mentioned",
-      "PubilshTime": "11:07:57, 2023-10-01",
-      "Child_Reports": []
-    },
-    {
-      "Id": 4879,
-      "Title": "Renewal of Clashes at Gaza Border",
-      "Text": "The youth affiliated with Hamas has announced that clashes at the Gaza border will resume today due to the desecration of Al-Aqsa Mosque.",
-      "Place": "Gaza",
-      "Coordinates": {
-        "LAT": 31.4432234,
-        "LON": 34.360007
-      },
-      "Attacker": "Youth affiliated with Hamas",
-      "Casualties": "Not mentioned",
-      "PubilshTime": "13:14:53, 2023-10-01",
       "Child_Reports": []
     },
     {

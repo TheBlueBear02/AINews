@@ -5,7 +5,7 @@ from geopy.geocoders import Nominatim
 import json
 import folium
 from streamlit_folium import st_folium
-from common import set_page_container_style
+from streamlit_gsheets import GSheetsConnection
 from folium.plugins import HeatMap
 from datetime import datetime
 
@@ -26,53 +26,63 @@ def get_Reports():
         reportDict = json.load(f)
     return reportDict
 
-def print_Reports():
+def print_Report(block):
     # Show reports 
-    for report in reports:
+    with st.container():
         # Report Header
-        st.header('❕' + report['Title'] + '🔸', anchor=str(report["Id"]))
+        st.header('❕' + block['Title'] + '🔸', anchor=str(block["Id"]))
         
         # Report first sentence
-        splitReport = report['Text'].split('.')
+        splitReport = block['Text'].split('.')
         st.write(splitReport[0])
         
         # If Read more button pressed
         with st.expander("Read More"):
-            st.info(report['Text'])
+            st.info(block['Text'])
             #map(location=(report['Coordinates']['LAT'], report['Coordinates']['LON']))
             st.write("[Resource↗️](https://web.telegram.org/k/#@hadshotabitahon)")
         # Publish Time
-        st.write(report['PubilshTime'])
+        st.write(block['PublishTime'])
         st.write('-----------------------------')
-        
         # Puts the events on the map 
-        if report['Coordinates'] != {}:
-            location = report['Coordinates']['LAT'], report['Coordinates']['LON']
-            folium.Marker(location,popup=report['Title'],icon=folium.DivIcon(html=reportHtml)).add_to(map)
+        if block['Coordinates'] != {}:
+            location = block['Coordinates']['LAT'], block['Coordinates']['LON']
+            folium.Marker(location,popup=block['Title'],icon=folium.DivIcon(html=reportHtml)).add_to(map)
 
+def print_Alert(block):
+    # Show alert 
+    # Report Header
+        with st.container():
+            st.header('🚨' + block['Title'] + '🔸', anchor=str(block["Id"]))
+            
 
-def print_Alerts():
-    # Show reports 
-    for alert in alerts:
-        # Report Header
-        st.header('🚨' + alert['Title'] + '🔸', anchor=str(alert["Id"]))
+            st.write(block['Title'])
+            
+
+            st.write("[Resource↗️](https://web.telegram.org/k/#@CumtaAlertsEnglishChannel)")
+            # Publish Time
+            st.write(block['PublishTime'])
+            st.write('-----------------------------')
+            
+            # Puts the events on the map 
+            if block['Places'] != []:
+                for place in block['Places']:
+                    location = place['LAT'],place['LON']
+                    folium.Marker(location,popup=block['Type']+ '\n' + block['PublishTime'],icon=folium.DivIcon(html=alertHtml)).add_to(map)
+
+def print_Feed(reports_cb,alerts_cb):
+    # sort the blocks by date time
+    sortedFeed = reversed(sorted(feed, key=lambda x: datetime.strptime(x['PublishTime'],'%H:%M:%S, %Y-%m-%d')))
+
+    for block in sortedFeed:
+        if block['Id'][0] == 'r' and reports_cb:
+           print_Report(block)
+           
+        elif block['Id'][0] == 'a' and alerts_cb:
+            print_Alert(block)
         
 
-        st.write(alert['Title'])
-        
-
-        st.write("[Resource↗️](https://web.telegram.org/k/#@CumtaAlertsEnglishChannel)")
-        # Publish Time
-        st.write(alert['Time'])
-        st.write('-----------------------------')
-        
-        # Puts the events on the map 
-        if alert['Places'] != []:
-            for place in alert['Places']:
-                location = place['LAT'],place['LON']
-                folium.Marker(location,popup=alert['Type']+ '\n' + alert['Time'],icon=folium.DivIcon(html=alertHtml)).add_to(map)
-
-
+# HTML 
 st.markdown("""
         <style>
                .block-container {
@@ -143,20 +153,29 @@ alertHtml = """
         <div class="alert" style="animation-delay: 0s"></div>      
                                                                                                                
     </div>"""
+
+
+# Creates connection with the google sheets database
+#conn = st.experimental_connection("gsheets", type=GSheetsConnection)
+# Reads from the DB
+#df = conn.read()
+
+
+
 # Creating a sidebar object
 sideB = st.sidebar
 
 # Gets the json file
 allJson = get_Reports()
-reports = allJson["Reports"]
-alerts = allJson["Alerts"]
+feed = allJson["Reports"] + allJson["Alerts"]
+
 # Maps default view point
 israelView = (31.78847185,38.21879441094499)
 
 # Creates the map
 map = folium.Map(location=israelView,zoom_start=7.5,tiles="Cartodb dark_matter")
 
-
+# Get the time
 now = datetime.now()
 
 # Side Bar
@@ -166,13 +185,12 @@ with sideB:
     st.text(now.strftime("%H:%M:%S"))
 
     reports_cb = st.checkbox('❕ Recent Reports',value=True)
-    Alerts_cb = st.checkbox('🚨 Red Alerts')
+    alerts_cb = st.checkbox('🚨 Red Alerts',value=True)
 
     st.text('Last Update: ' + allJson["LastUpdate"])
     st.write('-----------------------------')
-    if reports_cb:
-        print_Reports()
-    if Alerts_cb:
-        print_Alerts()
- # Print the map
+    
+    #  Feed
+    print_Feed(reports_cb,alerts_cb)
+    #Print the map
 st_folium(map,width=2600,height=790)

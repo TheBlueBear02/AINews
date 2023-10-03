@@ -1,21 +1,287 @@
 {
+  "LastUpdate": "19:58",
   "Reports": [
     {
-      "Id": 4884,
-      "Title": "Border incident near Lebanon",
-      "Text": "There was a breach of order at the border with Lebanon. Hezbollah resumed firing at IDF forces, who responded by dispersing protests and detaining several suspects who were throwing stones towards the border fence. Earlier today, in the vicinity of Metula, a baby was lightly injured by shrapnel. Security forces are on high alert.",
-      "Place": "Lebanon",
+      "Id": "r4910",
+      "Title": "Breaking: Gunfire heard in the town of Gan-Ner in the north",
+      "Text": "Primary: Gunfire from an automatic weapon was heard in the town of Gan-Ner in the north. No information about casualties, forces are scanning the area. (Hallel Biton Rosen, News 14)",
+      "Place": "Gan-Ner",
       "Coordinates": {
-        "LAT": 40.375713,
-        "LON": -76.4626118
+        "LAT": 32.5308688,
+        "LON": 35.3391118
       },
-      "Attacker": "Hezbollah",
-      "Casualties": "1 injured",
-      "PubilshTime": "18:22:31, 2023-10-01",
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "16:53:56, 2023-10-03",
       "Child_Reports": []
     },
     {
-      "Id": 4882,
+      "Id": "r4909",
+      "Title": "Israeli Security News",
+      "Text": "Israeli Security Forces arrested a wanted suspect involved in terrorist activity in Tulkarm.",
+      "Place": "Tulkarm",
+      "Coordinates": {
+        "LAT": 32.3111468,
+        "LON": 35.0275505
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "15:46:54, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4908",
+      "Title": "Israeli Security News",
+      "Text": "Israeli Security Forces arrested a wanted suspect involved in terrorist activity in Tulkarm. Earlier today, the Yamam fighters, together with the Border Police and IDF, carried out a targeted arrest operation based on precise intelligence provided by the General Security Service. The operation took place in the city of Tulkarm, located in the 'Menashe' Regional Division. During the operation, the suspect, a resident of Tulkarm, was swiftly apprehended while staying in a cellular store. He has been taken into custody for further investigation by the General Security Service.",
+      "Place": "Tulkarm",
+      "Coordinates": {
+        "LAT": 32.3111468,
+        "LON": 35.0275505
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "15:07:00, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4907",
+      "Title": "Attack in Bat Hefer",
+      "Text": "Prior to the arrest by the Border Police, terrorists opened fire towards the settlement of Bat Hefer and fled. There are no casualties.",
+      "Place": "Bat Hefer",
+      "Coordinates": {
+        "LAT": 32.3345015,
+        "LON": 35.012351
+      },
+      "Attacker": "Terrorists",
+      "Casualties": "0",
+      "PublishTime": "14:43:46, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4906",
+      "Title": "Israeli Security Forces Arrest Suspect in Terror Activity in Tulkarm",
+      "Text": "Earlier today, Israeli security forces, together with IDF and Border Police units, carried out a targeted arrest operation in the city of Tulkarm in the Menashe Regional Division. The operation was conducted based on precise intelligence provided by the General Security Service.\n\nAs part of the operation, a unit of the Israeli security forces swiftly apprehended the suspect while he was present in a cellular store in the city.\n\nThe suspect, a resident of Tulkarm, is wanted for involvement in terrorist activities. He has been arrested and transferred for further investigation by the General Security Service.",
+      "Place": "Tulkarm",
+      "Coordinates": {
+        "LAT": 32.3111468,
+        "LON": 35.0275505
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "14:40:51, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4904",
+      "Title": "Israeli Fighter Jets Receive American Cover on their way to Attack",
+      "Text": "Syrian sources, unofficially identified with the Assad regime, accuse the Jordanians of allowing Israeli Air Force jets to cross the border between them and Iraq on their way to the attack last night. They also note that Israel received American cover from the forces in the tri-border area between Jordan, Syria, and Iraq in Al-Tanf (where there is an American base and a no-fly zone for Syrian aircraft, for example). These sources further report that the Israeli jets attacked several targets in the area beyond the land border between Iraq and Lebanon, adjacent to Al-Bukamal (shown on the map), and also targeted radar stations and early warning in the Rabbash neighborhood of Deir ez-Zor.",
+      "Place": "Deir ez-Zor",
+      "Coordinates": {
+        "LAT": 35.3333335,
+        "LON": 40.1499999
+      },
+      "Attacker": "Israeli Air Force",
+      "Casualties": "Not mentioned",
+      "PublishTime": "11:20:49, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4902",
+      "Title": "Israeli Fighter Jets Receive American Cover on Jordanian Border",
+      "Text": "Unofficial Syrian sources associated with the Assad regime accuse the Jordanians of allowing Israeli Air Force jets to cross the border on their way to an attack in Iraq last night. They also note that Israel received American cover from forces in the tri-border area between Jordan, Syria, and Iraq in Al-Tanf (where there is an American base and a no-fly zone for Syrian aircraft, for example). These sources further report that the Israeli jets targeted several locations in the area beyond the land border between Iraq and Lebanon, near Al-Bukamal (appears on the map), as well as radar stations and an early warning system in the Rabbash neighborhood of Deir ez-Zor.",
+      "Place": "Deir ez-Zor",
+      "Coordinates": {
+        "LAT": 35.3333335,
+        "LON": 40.1499999
+      },
+      "Attacker": "Israeli Air Force",
+      "Casualties": "Not mentioned",
+      "PublishTime": "11:19:26, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4901",
+      "Title": "Israeli forces arrest 12 wanted individuals in the West Bank",
+      "Text": "IDF, Shin Bet, and Border Police forces carried out operations last night to arrest 12 wanted individuals in various locations in the West Bank. Four suspects were arrested in the city of Nablus and the villages of Husan and Zaida. Additionally, four wanted individuals were apprehended in the village of Beit Kahil. During the operation in the suspected village, the suspects threw stones at the forces, who responded with means to disperse the protests. In the Jalazone refugee camp and the villages of Ein Um Ashrait and Kafr Aqab, four more wanted individuals were arrested. Violent clashes erupted during the activities, and the forces responded with means to disperse the protests.\n\nFurthermore, IDF forces identified a terrorist who threw a Molotov cocktail towards a military position near the village of Al-Pawar. The soldiers at the position fired warning shots in the air and then towards the suspect, confirming a hit.\n\nIn addition, a report was received during the night of a violent confrontation between Israeli civilians and Palestinians on the outskirts of the village of Jalud in the Binyamin Brigade area. The Israelis fired flares towards the Palestinians, and mutual stone-throwing occurred. IDF forces that arrived at the scene dispersed the gathering using means to disperse the protests.\n\nAn IDF force that was conducting a planned operation last night near Route 60 in the Etzion Brigade area identified a suspect who began throwing stones and advancing towards the road. The force arrested the suspect before he could throw stones at passing vehicles. No injuries were reported to our forces.\n\nThe arrested individuals were transferred for further investigation by the security forces. No injuries were reported to our forces.",
+      "Place": "West Bank",
+      "Coordinates": {
+        "LAT": 53.3488628,
+        "LON": -2.7338228
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "11:05:49, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4900",
+      "Title": "Israeli Security Forces Arrest 12 Wanted Individuals in Judea and Samaria",
+      "Text": "IDF, Shin Bet, and Border Police forces carried out operations last night to arrest 12 wanted individuals in various locations in Judea and Samaria. Four wanted individuals were arrested in the city of Nablus and the villages of Husan and Zaida. In addition, four wanted individuals were arrested in the village of Beit Kahil. During the operation in the suspected village, the forces were attacked with stones and responded with means to disperse the protests.\n\nIn the Jalazone refugee camp and the villages of Ein Um Ashreit and Kafr Aqab, the forces arrested four more wanted individuals. Violent clashes erupted during the activities, and the forces responded with means to disperse the protests.\n\nFurthermore, IDF forces identified a terrorist who threw a Molotov cocktail towards a military position near the village of Al-Pawar. The soldiers at the position fired warning shots in the air and then towards the suspect, confirming a hit.\n\nAdditionally, a report was received during the night of a violent confrontation between Israeli civilians and Palestinians on the outskirts of the village of Jalud in the Benjamin Brigade area. The Israelis fired flares towards the Palestinians, and mutual stone-throwing occurred. IDF forces arrived at the scene and dispersed the gathering using means to disperse the protests.\n\nAn IDF force that was conducting a planned operation last night near Route 60 in the Etzion Brigade area identified a suspicious individual who began throwing stones and advancing towards the road. The force arrested the suspect before he could throw stones at passing vehicles. No injuries were reported to our forces.\n\nThe arrested individuals were transferred for further investigation by the security forces. No injuries were reported to our forces.",
+      "Place": "Judea and Samaria",
+      "Coordinates": {
+        "LAT": 32.0254688,
+        "LON": 35.2888075
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "No injuries reported",
+      "PublishTime": "11:04:05, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4899",
+      "Title": "Security News",
+      "Text": "Syrian Military Source: 'Around 23:50 on October 2, 2023, the Israeli enemy carried out an aerial attack on several of our strategic positions in the vicinity of the city of Dir a-Zur. The attack resulted in two soldiers being transferred as wounded and some material losses.'",
+      "Place": "Dir a-Zur",
+      "Coordinates": {},
+      "Attacker": "Israeli",
+      "Casualties": "2 injured, material losses",
+      "PublishTime": "01:18:50, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4897",
+      "Title": "Unofficial Syrian sources report unidentified fighter jets carrying out attacks",
+      "Text": "Unofficial Syrian sources report that unidentified fighter jets carried out attacks in the past hour on targets identified with Iranian recommendations in the illegal border area between Iraq and Syria in Al-Bukamal, eastern Syria. This area is used for the transfer of weapons and ammunition from Iran to Syria and Lebanon. The estimations among Syrian sources range from an Israeli attack to an American attack.",
+      "Place": "Al-Bukamal",
+      "Coordinates": {
+        "LAT": 34.398408599999996,
+        "LON": 40.97598463122468
+      },
+      "Attacker": "Unidentified fighter jets",
+      "Casualties": "Not mentioned",
+      "PublishTime": "00:37:58, 2023-10-03",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4896",
+      "Title": "Violent clash between Israeli and Palestinian civilians in Kusra village",
+      "Text": "A violent confrontation, including mutual stone-throwing, erupted earlier this evening between Israeli and Palestinian civilians on the outskirts of the village of Kusra in the Binyamin Brigade area. During the clash, an Israeli military vehicle was damaged by a Palestinian truck. Israeli forces arrived at the scene and dispersed the confrontation using crowd control measures and firing warning shots into the air.",
+      "Place": "Kusra",
+      "Coordinates": {},
+      "Attacker": "Israeli and Palestinian civilians",
+      "Casualties": "Not mentioned",
+      "PublishTime": "22:25:44, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4895",
+      "Title": "Israeli Air Force Commander's Ultimatum to Pilots",
+      "Text": "The commander of the Israeli Air Force has issued an ultimatum to pilots, informing them to report if they are returning to fly by sunrise. The commander delivered a message to the pilots who had stopped serving in protest against the legal legislation and set a deadline after which those who do not return will jeopardize their active service.",
+      "Place": "Not mentioned",
+      "Coordinates": {},
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "20:25:35, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4894",
+      "Title": "Israeli Foreign Ministry expresses protest to French diplomats",
+      "Text": "The Israeli Foreign Ministry recently held two tense conversations with French diplomats, during which Israel expressed its protest over France's complete adoption of the Lebanese government's position and its disregard for Hezbollah's presence in the border area with Israel, senior officials in the Foreign Ministry in Jerusalem told Walla News.",
+      "Place": "Jerusalem",
+      "Coordinates": {
+        "LAT": 31.78847185,
+        "LON": 35.21879441094499
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "20:22:49, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4893",
+      "Title": "Unauthorized entry and stone-throwing incident at Joseph's Tomb in Shechem",
+      "Text": "A group of tourists entered the Joseph's Tomb compound in Shechem without permission. During their entry into the compound, they were targeted with stones by suspects. Two of the tourists were injured and received medical treatment on-site. All the tourists were evacuated from the compound.",
+      "Place": "Shechem",
+      "Coordinates": {
+        "LAT": 32.2205316,
+        "LON": 35.2569374
+      },
+      "Attacker": "Unknown suspects",
+      "Casualties": "2 injured",
+      "PublishTime": "17:33:37, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4892",
+      "Title": "Increase in Gaza Workers' Quota and Export from Gaza",
+      "Text": "After a relative calm in recent days on the Gaza-Israel border, Israel is now considering increasing the quota of Gaza workers to 20,000 in order to promote the process. Approval from the Israeli government is required. Additionally, there are plans to expand exports from Gaza through the Kerem Shalom crossing and broaden the marketing of goods. An official mentioned that if in the near future Israel does not increase the quota of Gaza workers, we may return to the same point. Past experience has taught us that this step is important for calming tensions in the area. Security news.",
+      "Place": "Gaza",
+      "Coordinates": {
+        "LAT": 31.4432234,
+        "LON": 34.360007
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "14:43:21, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4891",
+      "Title": "Hamas Spokesperson Condemns Israeli Attacks on Al-Aqsa",
+      "Text": "The spokesperson for Hamas, who is in charge of Jerusalem, condemns the brutal attacks by the occupation on Al-Aqsa, which reflect its Nazism. He calls on our people to mobilize and escalate the confrontation.",
+      "Place": "Al-Aqsa",
+      "Coordinates": {
+        "LAT": 31.77630415,
+        "LON": 35.235596052553596
+      },
+      "Attacker": "Israeli occupation",
+      "Casualties": "Not mentioned",
+      "PublishTime": "14:08:28, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4890",
+      "Title": "Israeli forces arrest wanted individuals in Judea and Samaria",
+      "Text": "IDF forces in the West Bank and Jordan Valley conducted operations last night to arrest ten wanted individuals. They also seized various combat equipment in the villages of Ya'abad and Askar. In Nablus, two wanted individuals were arrested, and during the operation, suspects opened fire at the forces. In Jenin, two more wanted individuals were apprehended, and weapons were confiscated. In the Gilazon refugee camp, a wanted individual was arrested. The operations resulted in violent clashes, and security forces responded with crowd dispersal measures. In the village of Hirbat al-Ashkar, two wanted individuals were arrested, and hunting rifles, grenades, ammunition, and military equipment were seized. In the village of Hizma, near Jerusalem, three wanted individuals were apprehended, and three handguns, three rifles, and a knife were confiscated. The operations led to violent disturbances, and security forces responded with crowd dispersal measures. The arrested individuals and confiscated combat equipment were handed over to the relevant security authorities. No casualties were reported among the security forces.",
+      "Place": "Judea and Samaria",
+      "Coordinates": {
+        "LAT": 32.0254688,
+        "LON": 35.2888075
+      },
+      "Attacker": "IDF (Israeli Defense Forces)",
+      "Casualties": "Not mentioned",
+      "PublishTime": "10:46:34, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4887",
+      "Title": "Summary of Today's Events",
+      "Text": "There were shooting attacks, explosive attacks, stone-throwing incidents, and incidents of blinding drivers with lasers to cause accidents. Despite all the attacks, only one woman and a toddler were lightly injured. Full details in the comments. Security news.",
+      "Place": "Not mentioned",
+      "Coordinates": {},
+      "Attacker": "Not mentioned",
+      "Casualties": "1 injured woman, 1 injured toddler",
+      "PublishTime": "00:55:45, 2023-10-02",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4886",
+      "Title": "Rocket fire towards Eshkol settlement",
+      "Text": "A few minutes ago, there were reports of rocket fire towards the Eshkol settlement. A house was hit, and searches are ongoing in the houses in the settlement. No casualties reported.",
+      "Place": "Eshkol",
+      "Coordinates": {
+        "LAT": 32.9082411,
+        "LON": 35.3005543
+      },
+      "Attacker": "Not mentioned",
+      "Casualties": "Not mentioned",
+      "PublishTime": "22:51:45, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4885",
+      "Title": "Initial suspicion of a shooting attack in the village of Asha'allela",
+      "Text": "There are initial suspicions of a shooting attack in the village of Asha'allela. No information is currently available about any casualties.",
+      "Place": "Asha'allela",
+      "Coordinates": {},
+      "Attacker": "Unknown",
+      "Casualties": "Not mentioned",
+      "PublishTime": "22:34:36, 2023-10-01",
+      "Child_Reports": []
+    },
+    {
+      "Id": "r4882",
       "Title": "Meeting between Israeli Defense Minister and US Secretary of Defense",
       "Text": "Israeli Defense Minister Yoav Galant will meet with US Secretary of Defense Lloyd Austin in Washington. Galant received an invitation from Austin and will travel to Washington in October for an official visit. During their meeting, they will discuss ways to strengthen the special security relations between Israel and the United States, as well as the security challenges and various policy opportunities in the Middle East.",
       "Place": "Washington",
@@ -25,11 +291,11 @@
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "18:17:18, 2023-10-01",
+      "PublishTime": "18:17:18, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4881,
+      "Id": "r4881",
       "Title": "Security Meeting with Prime Minister Netanyahu",
       "Text": "Prime Minister Netanyahu held a security meeting today with the Minister of Defense and the heads of the security forces. The discussion focused on security challenges in various areas, with an emphasis on Iran.",
       "Place": "Jerusalem",
@@ -39,11 +305,11 @@
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "16:29:27, 2023-10-01",
+      "PublishTime": "16:29:27, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4880,
+      "Id": "r4880",
       "Title": "Cancellation of clashes at the Gaza border",
       "Text": "The revolutionary youth has announced that they are canceling the clashes at the Gaza border.",
       "Place": "Gaza",
@@ -53,11 +319,11 @@
       },
       "Attacker": "Revolutionary youth",
       "Casualties": "Not mentioned",
-      "PubilshTime": "14:48:15, 2023-10-01",
+      "PublishTime": "14:48:15, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4879,
+      "Id": "r4879",
       "Title": "Security News Update",
       "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip. The Minister of National Security, Ben Gvir, is not participating in the security assessment, due to pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount. This is one of the reasons why the Prime Minister's office preferred not to invite him to the important discussion.",
       "Place": "Jerusalem",
@@ -67,11 +333,11 @@
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "13:14:53, 2023-10-01",
+      "PublishTime": "13:14:53, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4878,
+      "Id": "r4878",
       "Title": "Renewed clashes at the Gaza border",
       "Text": "The radical youth affiliated with Hamas has announced that clashes at the Gaza border will resume today due to the desecration of Al-Aqsa.",
       "Place": "Gaza",
@@ -81,11 +347,11 @@
       },
       "Attacker": "Hamas",
       "Casualties": "Not mentioned",
-      "PubilshTime": "13:14:17, 2023-10-01",
+      "PublishTime": "13:14:17, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4877,
+      "Id": "r4877",
       "Title": "Security discussion at the Prime Minister's Office",
       "Text": "At this time, a security discussion is beginning at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the surrounding areas. Minister of National Security, Ben Gvir, is not participating in the security assessment. The pressure from his surroundings to restore targeted assassinations and insistence on matters related to the Temple Mount are among the reasons why the Prime Minister's Office preferred not to invite him to the important discussion.",
       "Place": "Jerusalem",
@@ -95,11 +361,11 @@
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "12:11:59, 2023-10-01",
+      "PublishTime": "12:11:59, 2023-10-01",
       "Child_Reports": []
     },
     {
-      "Id": 4876,
+      "Id": "r4876",
       "Title": "Security discussion at the Prime Minister's Office in Jerusalem",
       "Text": "At this hour, a security discussion begins at the Prime Minister's Office in Jerusalem with the heads of the security establishment. The discussion will focus on various sectors, including the Temple Mount and the Gaza Strip.",
       "Place": "Jerusalem",
@@ -109,8 +375,169 @@
       },
       "Attacker": "Not mentioned",
       "Casualties": "Not mentioned",
-      "PubilshTime": "11:07:57, 2023-10-01",
+      "PublishTime": "11:07:57, 2023-10-01",
       "Child_Reports": []
+    }
+  ],
+  "Alerts": [
+    {
+      "Id": "a9357",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Eli ",
+      "Places": [
+        {
+          "Name": "Eli ",
+          "LAT": 31.6557543,
+          "LON": 34.5763873
+        }
+      ],
+      "PublishTime": "21:29:02, 2023-10-4"
+    },
+    {
+      "Id": "a9372",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Hashmonaim ",
+      "Places": [
+        {
+          "Name": "Hashmonaim ",
+          "LAT": 32.0823307,
+          "LON": 34.8113141
+        }
+      ],
+      "PublishTime": "20:55:53, 2023-09-19"
+    },
+    {
+      "Id": "a9370",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Nili ",
+      "Places": [
+        {
+          "Name": "Nili ",
+          "LAT": 32.5227932,
+          "LON": 34.9443595
+        }
+      ],
+      "PublishTime": "01:56:28, 2023-07-30"
+    },
+    {
+      "Id": "a9368",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Nachliel ",
+      "Places": [
+        {
+          "Name": "Nachliel ",
+          "LAT": 32.9598084,
+          "LON": 35.5081812
+        }
+      ],
+      "PublishTime": "22:29:13, 2023-07-22"
+    },
+    {
+      "Id": "a9366",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Asa'el ",
+      "Places": [
+        {
+          "Name": "Asa'el ",
+          "LAT": 31.7646617,
+          "LON": 35.2285031
+        }
+      ],
+      "PublishTime": "11:22:30, 2023-07-15"
+    },
+    {
+      "Id": "a9364",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Mevo Horon ",
+      "Places": [
+        {
+          "Name": "Mevo Horon ",
+          "LAT": 31.855823,
+          "LON": 35.003641
+        }
+      ],
+      "PublishTime": "03:02:10, 2023-07-08"
+    },
+    {
+      "Id": "a9362",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Kdumim ",
+      "Places": [
+        {
+          "Name": "Kdumim ",
+          "LAT": 32.1814129,
+          "LON": 34.935607
+        }
+      ],
+      "PublishTime": "15:50:41, 2023-07-06"
+    },
+    {
+      "Id": "a9361",
+      "Type": "Red Alert",
+      "Title": "Red Alert at Sderot, Ibim, Nir Am, Gavim, Sapir College ",
+      "Places": [
+        {
+          "Name": "Sderot",
+          "LAT": 31.526474,
+          "LON": 34.5969696
+        },
+        {
+          "Name": "Ibim",
+          "LAT": 31.5332929,
+          "LON": 34.6100744
+        },
+        {
+          "Name": "Nir Am",
+          "LAT": 31.5193144,
+          "LON": 34.5807617
+        },
+        {
+          "Name": "Sapir College ",
+          "LAT": 31.510728,
+          "LON": 34.59435
+        }
+      ],
+      "PublishTime": "01:34:03, 2023-07-05"
+    },
+    {
+      "Id": "a9357",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Eli ",
+      "Places": [
+        {
+          "Name": "Eli ",
+          "LAT": 31.6557543,
+          "LON": 34.5763873
+        }
+      ],
+      "PublishTime": "16:29:02, 2023-06-20"
+    },
+    {
+      "Id": "a9355",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Yafit ",
+      "Places": [
+        {
+          "Name": "Yafit ",
+          "LAT": 32.16135319999999,
+          "LON": 34.795431416713456
+        }
+      ],
+      "PublishTime": "09:47:05, 2023-06-18"
+    },
+    {
+      "Id": "a9353",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Kokhav Ya'akov ",
+      "Places": [],
+      "PublishTime": "19:30:16, 2023-05-26"
+    },
+    {
+      "Id": "a9351",
+      "Type": "Terrorist Infiltration",
+      "Title": "Terrorist Infiltration at Teneh Omarim ",
+      "Places": [],
+      "PublishTime": "09:44:24, 2023-05-26"
     }
   ]
 }

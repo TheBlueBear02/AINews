@@ -34,7 +34,7 @@ def get_TelegramReports(group, cl):
     gpt_Instructions = [
     {"role": "system", "content":"You are an israeli news worker, you get a war report and you need to return this info (if mention):A translation of the Hebrew report exactly as given,  Where the event took place, what country or organization  did the action and how many injuries or kills there was "},
     {"role": "system", "content":"Pls responde only with the info you understood from the report there no need to be nice or write other things"},
-    {"role": "system", "content":'Pls return the info in a JSON format. Here is the expected JSON format: {"Title": A short title for the report, "Text": The translation of the report from Hebrew to English, "Place": the most specific place of the report in one word maximum 2 and the name of the country,"Attacker": the army or terror organization that pulled the action,"Casualties": how many kills/injured people in number from the report for example 2 killed 0 Injured}'},
+    {"role": "system", "content":'Pls return the info in a JSON format. Here is the expected JSON format: {"Title": A short title for the report IN ENGLISH, "Text": The translation of the report from Hebrew to English, "Place": the most specific place of the report in one word maximum 2, "Attacker": the army or terror organization that pulled the action,"Casualties": how many kills/injured people in number from the report for example 2 killed 0 Injured}'},
     {"role": "system", "content":"DO NOT RETURN ANY INFORMATION IN A DIFFERENT LANGUAGE THAN ENGLISH"},
     {"role": "system", "content":"If some of the data don't mention just write Not entioned"},
     ]
@@ -75,19 +75,22 @@ def get_TelegramReports(group, cl):
             location = geolocator.geocode(infoToJson['Place'])
             lat = location.latitude
             lon = location.longitude
-            coordinates = {'LAT': lat, 'LON':lon}
+            if lon > 20:
+                coordinates = {'LAT': lat, 'LON':lon}
+            else:
+                coordinates = {'LAT': 0, 'LON':0}
         except:
-            coordinates = {}
+            coordinates = {'LAT': 0, 'LON':0}
             print('no place')
         temp = {
-                "Id": message.id,
+                "Id": 'r'+str(message.id),
                 "Title": infoToJson['Title'],
                 "Text": infoToJson['Text'],
                 "Place": infoToJson['Place'],
                 "Coordinates": coordinates,
                 "Attacker": infoToJson['Attacker'],
                 "Casualties": infoToJson['Casualties'],
-                "PubilshTime": reportTime,
+                "PublishTime": reportTime,
                 "Child_Reports" : []
                 }
         reportDict['Reports'].insert(0,temp)
@@ -152,11 +155,11 @@ def get_RedAlerts(group, cl):
                     continue
             # creates new alert object
             temp = {
-                        "Id": alert.id,
+                        "Id": 'a'+str(alert.id),
                         "Type": title.split(' at ')[0],
                         "Title": title,
                         "Places": alertPlacesDict,
-                        "Time": reportTime
+                        "PublishTime": reportTime
                     } 
             # add the new alert to the dict
             reportDict['Alerts'].insert(0,temp)
